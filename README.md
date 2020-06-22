@@ -12,3 +12,4 @@ What it does is that it calls the method "onBtnClick" from the mainActivity.java
 String name=edtTxtName.getText().toString(); //converts it to a String
         txtHello.setText("Hello " +name); //sets the TextView into a specific string
     } ```
+* Result is in https://www.youtube.com/watch?v=fis26HvvDII at 59:00

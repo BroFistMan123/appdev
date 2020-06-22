@@ -1,0 +1,17 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Unknown </title></head><body>
+<h1 id="mobile-app-development-by-merhamdin-umbukan">Mobile App Development by Merhamdin Umbukan</h1>
+<h2 id="part-1-hello-world">Part 1: Hello World</h2>
+<ul>
+<li>Hello + "input" with the use of a button</li>
+<li>Create a button via design on activity_main.xml and insert this code in the button scope.
+<code>java android:onClick="onBtnClick"</code>
+What it does is that it calls the method "onBtnClick" from the mainActivity.java.</li>
+<li>Create the "onBtnClick" method inside MainActivity class but outside onCreate.
+<code>java public void onBtnClick(View view){
+        TextView txtHello = findViewById(R.id.txtMessage); //txtMessage is the id of the text that displays Hello World. It gives the identity as a TextView in here rather than just only being an id.
+        EditText edtTxtName=findViewById(R.id.editTextName);//editTextName is the id of the editText(editable Text)
+String name=edtTxtName.getText().toString(); //converts it to a String
+        txtHello.setText("Hello " +name); //sets the TextView into a specific string
+    }</code></li>
+</ul>
+</body></html>
